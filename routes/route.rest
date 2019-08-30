@@ -1,0 +1,41 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/
+
+
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstname":"John",
+    "lastname":"Doe"
+}
+
+###
+
+DELETE http://localhost:3000/users/
+
+
+###
+
+PATCH http://localhost:3000/users/5d69553736a60d330e6a07a7
+Content-Type: application/json
+
+{
+    "firstname":"Michael",
+}
+
+###
+
+PUT http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "firstname":"James",
+    "lastname":"Smith"
+}
